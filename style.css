@@ -25,7 +25,7 @@ body{
   background-color: var(--main-color);
 }
 
-.container{
+section .container{
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -80,6 +80,10 @@ body{
 /* end glopal */
 
 /* start header  */
+nav {
+  box-shadow:  22px 22px 44px #a1a1a1,
+              -22px -22px 44px #ffffff;
+}
 .navbar-brand{
   color: var(--second-color);
   font-size: 25px;
@@ -194,34 +198,9 @@ body{
 /* end home */
 
 /* start services  */
-.services .container{
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3 , 1fr);
-  gap: 20px;
-}
-
-@media (max-width:900px) {
-  .services .container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-}
-
-.services .box{
-  position: relative;
-  transition: var(--main-transition);
-  padding: 30px;
-  color: var(--second-color);
-}
-
 .services .box h1{
-  line-height: 2;
   font-size: 25px;
 }
-
 .services .box P{
   font-size: 14px;
 }
