@@ -12,11 +12,7 @@
     --second-color:#212121;
     --main-transition:0.5s;
 }
-.dark-theme{
-  --main-color:#212121;
-  --second-color:#f8f8f8;
-  --main-transition:0.5s;
-}
+
 html{
     scroll-behavior: smooth;
 }
