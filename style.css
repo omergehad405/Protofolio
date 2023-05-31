@@ -12,7 +12,11 @@
     --second-color:#212121;
     --main-transition:0.5s;
 }
-
+.dark-theme{
+  --main-color:#212121;
+  --second-color:#f8f8f8;
+  --main-transition:0.5s;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -66,6 +70,7 @@ section .container{
     font-size: 22px;
   }
 }
+
 /* end glopal */
 
 /* start header  */
@@ -89,7 +94,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .home .data {
@@ -100,7 +105,6 @@ nav {
   .home .data{
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     justify-content: center;
     height: 50vh;
@@ -111,6 +115,7 @@ nav {
   color: var(--second-color);
   text-transform: capitalize;
 }
+
 @media (max-width:767px ){
   .home .data h1{
     font-size: 30px;
