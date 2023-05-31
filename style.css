@@ -113,13 +113,12 @@ nav {
 }
 @media (max-width:767px ){
   .home .data h1{
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 .home .data .jobs{
   display: inline-block;
-  font-size: 40px;
 }
 .home .data .job::before{
     content: attr(data-job1);
